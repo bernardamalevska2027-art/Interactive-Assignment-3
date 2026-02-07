@@ -1,0 +1,48 @@
+
+/* formatting standard */ 
+body 
+{ 
+    width: 50%;
+    margin: auto; 
+    padding: 10px;
+   background-color: rgb(209, 229, 240); 
+   line-height: 1.6
+  
+}
+
+/*color for both h1 and h2 is inspired by the blue of the Australian Open*/
+/* the font-family was changed for the headings and the byline to be differentiable from the rest of the text*/
+
+h1 {font-size: 3em; 
+    color: rgb(7, 7, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+
+}
+
+
+h2 {
+    color: rgb(7, 7, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+/*byline decreased in size and in italic to be able to be differentiated from the rest of the text*/
+#byline {
+    font-style: italic;
+    font-size: 0.9em; 
+    font-family: Georgia, 'Times New Roman', Times, serif
+ }
+
+/*mobile accessibility */
+
+@media (orientation:portrait) {
+    #content { 
+        width: 100%;
+
+    }
+    body { 
+        font-size: 2em ;
+    }
+
+}
